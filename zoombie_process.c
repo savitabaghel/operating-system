@@ -8,6 +8,6 @@ int main()
     if (child_pid > 0)
         sleep(50);
     else
-        exit(0);
+       exit(0);
     return 0;
 }
